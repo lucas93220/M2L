@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+/* Reset */
+*{
+    box-sizing: border-box;
+}
+html{ 
+    font-size: 62.5%;
+    scroll-behavior: smooth; 
+}
+body{
+    font: 1.6rem 'Open Sans', sans-serif; 
+    margin: 0;
+}
+h1,h2,h3,h4,p,ol,ul,figure,dd{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+h1,h2,h3,h4{
+    font-weight: normal;
+}
+a{
+    color: #3216be;
+    text-decoration: none;
+}
+
+:root{
+    --first-color: #ff0000;;
+    --first-color-alt: rgb(255, 255, 255);
+    --h3-font-color: #000;
+    --subtitle-font-color: rgb(0, 0, 0);
+    --details-font-size: rgb(15, 10, 10);
+}
+
+
+header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: var(--first-color);
+    height: 5rem;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0 0 6px #141313;
+}
+
+header a{
+    padding: 1rem;
+    display: flex;
+    color: #000000;
+    font-weight: bold;
+    font-size: larger;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.logo1{
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.list_btn{
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.logo2{
+    width: 3rem;
+    margin-right: 0.3rem;
+}
+
+.prof_pic img{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.nav_btns{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo{
+    max-width: 12rem;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 0.5rem;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    padding: 1rem;
+    font-size: medium;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+section div:first-child{
+    max-width: 65rem;
+    text-align: center;
+    margin: auto;
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+}
+
+div h1{
+    padding-bottom: 2rem;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+div h2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card{
+    position: relative;
+    max-width: fit-content;
+    margin: auto;
+    box-shadow: 1px 2px 5px rgb(12, 12, 13), 0px 0px 4px rgb(41, 41, 71);
+}
+
+.card>p {
+    position: absolute;
+    background-color: #73642a;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: #fff;
+    font-size: smaller;
+    font-weight: bolder;
+    right: 0;
+}
+
+.card figure {
+    display: flex;
+}
+
+.field{
+    display: flex;
+    padding: 0.2rem;
+    margin-left: 17.4rem;
+    justify-content: flex-end;
+    width: fit-content;
+    font-size: smaller;
+    background-color: #32a8f1;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.card>figure>figcaption {
+    padding: 2.5rem;
+    width: 28rem;
+}
+
+.card>figure>figcaption>h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: var(--subtitle-font-color);
+}
+
+.card>figure>figcaption>h3>strong {
+    color: var(--h3-font-color);
+    margin-right: 0.5rem;
+}
+
+.card>figure>figcaption>p {
+    margin-bottom: 1rem;
+    font-size: var(--font-size-p);
+    font-weight: 300;
+    color: var(--subtitle-font-color);
+}
+
+.card>figure>figcaption>ul>li {
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+    font-weight: 300;
+    color: var(--details-font-size);
+}
+
+.card>figure>figcaption>ul>li>img {
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.prof_picture{
+    width: 19.4rem;
+}
+
+.prof_details, .prof_mail,
+.prof_tel, .prof_dateofbirth{
+    padding: 0.5rem;
+}
+
+.hello_btn{
+    display: block;
+    margin: 1.5rem auto auto auto;
+    text-align: center;
+    width: 100%;
+    max-width: 25vw;
+    background-color: var(--first-color);
+    color: #fff;
+    font-size: smaller;
+    padding: 1rem;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    color: var(--first-color-alt);
+}
+
+
+
+
+.alert{
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.alert-danger{
+    background-color: #ff0b0bbf;
+}
+
+.success{
+    background-color: #53cc87;
+}

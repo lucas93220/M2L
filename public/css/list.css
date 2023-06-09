@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+/* Reset */
+*{
+    box-sizing: border-box;
+}
+html{ 
+    font-size: 62.5%;
+    scroll-behavior: smooth; 
+}
+body{
+    font: 1.6rem 'Open Sans', sans-serif; 
+    margin: 0;
+}
+h1,h2,h3,h4,p,ol,ul,figure,dd{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+h1,h2,h3,h4{
+    font-weight: normal;
+}
+a{
+    color: #2012a0;
+    text-decoration: none;
+}
+
+:root{
+    --first-color: #ff0800;;
+    --first-color-alt: rgb(109, 109, 109);
+    --h3-font-color: #000;
+    --subtitle-font-color: rgb(132, 132, 132);
+    --details-font-size: rgb(78, 78, 78);
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: var(--first-color);
+    height: 5rem;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0 0 6px #a8a8a8;
+}
+
+header a{
+    padding: 1rem;
+    display: flex;
+    color: #000000;
+    font-weight: bold;
+    font-size: larger;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.logo1{
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.list_btn{
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.logo2{
+    width: 3rem;
+    margin-right: 0.3rem;
+}
+
+.prof_pic img{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.nav_btns{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo{
+    max-width: 12rem;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 0.5rem;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    padding: 1rem;
+    font-size: medium;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 2rem auto 1rem auto;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #cdcdcd;
+    width: 70vw;
+
+}
+
+fieldset{
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+form{
+    max-width: 75vw;
+    margin: auto;
+}
+input[type="text"]{
+    width: 25vw;
+    height: 4.5vh;
+}
+select{
+    width: 14vw;
+    height: 4.5vh;
+}
+
+input,select{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+}
+
+.prof_list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.prof_list li{
+    width: fit-content;
+}
+
+.card{
+    position: relative;
+    max-width: fit-content;
+    margin: auto;
+    box-shadow: 1px 2px 5px rgb(211, 211, 221), 0px 0px 4px rgb(210, 210, 223);
+}
+
+.card>p {
+    position: absolute;
+    background-color: #32a8f1;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: #fff;
+    font-size: smaller;
+    font-weight: bolder;
+    right: 0;
+}
+
+.card figure {
+    display: flex;
+}
+
+.field{
+    display: flex;
+    padding: 0.2rem;
+    margin-left: 17.4rem;
+    justify-content: flex-end;
+    width: fit-content;
+    font-size: smaller;
+    background-color: #32a8f1;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.card>figure>figcaption {
+    padding: 2.5rem;
+    width: 28rem;
+}
+
+.card>figure>figcaption>h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: var(--subtitle-font-color);
+}
+
+.card>figure>figcaption>h3>strong {
+    color: var(--h3-font-color);
+    margin-right: 0.5rem;
+}
+
+.card>figure>figcaption>p {
+    margin-bottom: 1rem;
+    font-size: var(--font-size-p);
+    font-weight: 300;
+    color: var(--subtitle-font-color);
+}
+
+.card>figure>figcaption>ul>li {
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+    font-weight: 300;
+    color: var(--details-font-size);
+}
+
+.card>figure>figcaption>ul>li>img {
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.prof_picture{
+    width: 19.4rem;
+}
+
+.prof_details, .prof_mail,
+.prof_tel, .prof_dateofbirth{
+    padding: 0.5rem;
+}
+
+.hello_btn{
+    display: block;
+    margin: 1.5rem auto auto auto;
+    text-align: center;
+    width: 100%;
+    max-width: 25vw;
+    background-color: var(--first-color);
+    color: #fff;
+    font-size: smaller;
+    padding: 1rem;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    color: var(--first-color-alt);
+}
+
+
+
+
+.alert{
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.alert-danger{
+    background-color: #ff0b0bbf;
+}
+
+.success{
+    background-color: #53cc87;
+}
