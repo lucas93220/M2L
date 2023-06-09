@@ -45,7 +45,7 @@ header{
 header a{
     padding: 1rem;
     display: flex;
-    color: #fff;
+    color: #000000;
     font-weight: bold;
     font-size: larger;
     align-items: center;
@@ -123,7 +123,7 @@ h1{
 
 .config>form>input,select{
     border: thin solid #000000;
-    border-radius: 2px;
+    border-radius: 5px;
     width: 30vw;
     padding: 1rem;
 }
