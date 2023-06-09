@@ -44,6 +44,8 @@ $user = session()->get('login');
                         <option value="client">Client</option>
                         <option value="Technique">Technique</option>
                         <option value="Marketing">Marketing</option>
+                        <option value="Marketing">Juridique</option>
+                        <option value="Marketing">RH</option>
                     </select>
                     <label for=""><sup>*</sup>Nom :</label>
                     <input type="text" name="nom" id="nom" value="{{$user->getNom()}}">

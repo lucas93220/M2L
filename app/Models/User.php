@@ -18,6 +18,11 @@ class User extends Model
 
     protected $connection = 'mysql';
 
+    protected $fillable = [
+        
+        'last_login',
+        'before_last_login',
+    ];
     public function getNom(){
         return $this->nom;
     }

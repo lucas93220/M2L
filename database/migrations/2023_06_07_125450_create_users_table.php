@@ -23,7 +23,7 @@ return new class extends Migration
             $table->date('date_naissance');
             $table->string('telephone');
             $table->string('url_photo');
-            $table->string('field');
+            $table->string('field'); 
             $table->timestamps();
         });
 

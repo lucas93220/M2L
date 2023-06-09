@@ -32,7 +32,7 @@ $user = session()->get('login');
         <main>
             <section>
                 <div>
-                    <h1>Bienvenue sur l'intranet</h1>
+                    <h1>Bienvenue sur l'intranet, {{ $data->getPrenom() }} </h1>
                     <p>La plateforme de l'entreprise qui vous permet de retrouver tous vos collaborateurs.</p>
                     <h2>Avez-vous dit bonjour à :</h2>
                 </div>
