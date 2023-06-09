@@ -153,12 +153,13 @@ input,select{
     position: relative;
     max-width: fit-content;
     margin: auto;
-    box-shadow: 1px 2px 5px rgb(211, 211, 221), 0px 0px 4px rgb(210, 210, 223);
-}
+    box-shadow: 1px 2px 5px rgb(255, 255, 255), 0px 0px 4px rgb(0, 0, 0);
+    }
 
 .card>p {
     position: absolute;
     background-color: #ffaa00;
+    border-radius: 5px;
     padding: 0.5rem 1rem 0.5rem 1rem;
     color: #fff;
     font-size: smaller;

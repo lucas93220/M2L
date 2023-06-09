@@ -52,9 +52,9 @@ $user = session()->get('login');
                     <label for=""><sup>*</sup>Email :</label>
                     <input type="email" name="email" id="email" value="{{$user->getEmail()}}">
                     <label for="">Mot de passe :</label>
-                    <input type="password" name="psw" id="psw" placeholder="(min. 8 charactères)" aria-required="true" required>
+                    <input type="password" name="password" id="password" placeholder="(min. 8 charactères)" aria-required="true" required>
                     <label for="">Confirmation :</label>
-                    <input type="password" name="psw2" id="psw2" placeholder="(min. 8 charactères)" aria-required="true" required>
+                    <input type="password" name="password_confirmation" id="password_confirmation" placeholder="(min. 8 charactères)" aria-required="true" required>
                     <label for=""><sup>*</sup> Téléphone :</label>
                     <input type="tel" name="tel" id="tel" value="{{$user->getTelephone()}}">
                     <label for="">Date de naisance :</label>

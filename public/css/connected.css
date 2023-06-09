@@ -127,8 +127,9 @@ div h2{
 .card{
     position: relative;
     max-width: fit-content;
+    border-radius: 5px;
     margin: auto;
-    box-shadow: 1px 2px 5px rgb(12, 12, 13), 0px 0px 4px rgb(41, 41, 71);
+    box-shadow: 1px 2px 5px rgb(255, 255, 255), 0px 0px 4px rgb(0, 0, 0);
 }
 
 .card>p {
@@ -136,6 +137,7 @@ div h2{
     background-color: #ffaa00;
     padding: 0.5rem 1rem 0.5rem 1rem;
     color: #fff;
+    border-radius: 5px;
     font-size: smaller;
     font-weight: bolder;
     right: 0;
