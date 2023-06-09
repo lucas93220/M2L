@@ -121,6 +121,7 @@ section{
     color: var(--h3-font-color);
 }
 
+/* FORMULAIRE */
 .formulaire{
 	margin: auto;
 	padding-top: 2%;
@@ -178,21 +179,13 @@ fieldset p{
     padding-bottom: 2rem;
 }
 
-footer {
-    position: fixed;
-    text-align: center;
-    padding: 1rem;
-    bottom: 0;
-    width: 100%;
-    color: var(--h3-font-color);
-}
 
 .button{
     text-align: center;
 }
 
 
-
+/* ALERTE */
 .alert{
     text-align: center;
     margin: 2rem;

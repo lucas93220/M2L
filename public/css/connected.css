@@ -215,18 +215,11 @@ div h2{
     padding: 1rem;
 }
 
-footer {
-    position: fixed;
-    text-align: center;
-    padding: 1rem;
-    bottom: 0;
-    width: 100%;
-    color: var(--first-color-alt);
-}
 
 
 
 
+/* ALERTE */
 .alert{
     text-align: center;
     margin: 2rem;
