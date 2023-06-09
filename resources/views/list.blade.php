@@ -20,7 +20,7 @@ $userSafe = User::getAllUsers();
     </head>
     <body>
         <header>
-            <a href="{{ url('/')}}"><img src="{{asset('asset/intranet.png')}}" class="logo1" alt="">Intranet</a>
+            <a href="{{ url('/connected')}}"><img src="{{asset('asset/intranet.png')}}" class="logo1" alt="">Intranet</a>
         <nav class="nav_btns">
             <ul class="nav_links">
                 <li><a href=""><img src="{{asset('asset/list.png')}}" class="list_btn" alt="">Liste</a></li>
